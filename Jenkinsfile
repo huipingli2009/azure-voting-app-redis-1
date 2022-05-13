@@ -12,7 +12,6 @@ pipeline {
          steps {
            pwsh(script: 'docker images -a')
           
-           """)
          }
       }   
    }
